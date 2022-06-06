@@ -1,0 +1,28 @@
+= Simple REST API in C# 
+
+- Make sure you have the `dotnet` CLI installed. Or you can install it with:
++
+[source,shell]
+----
+brew install dotnet-sdk
+----
+
+- Create a Project:
++
+[source,shell]
+----
+dotnet new webapi -f net6.0
+----
+
+- Review the `Controllers/WeatherForecastController.cs` file.
+- Make sure it runs:
++
+[source,shell]
+----
+dotnet run
+----
+
+- Open a browser to: https://localhost:7266/weatherforecast[^]
+
+
+
